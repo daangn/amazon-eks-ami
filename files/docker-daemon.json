@@ -5,6 +5,9 @@
     "max-size": "10m",
     "max-file": "10"
   },
+  "default-ulimits": { 
+      "nofile": { "Name": "nofile", "Hard": 1000000, "Soft": 1000000 } 
+  },
   "live-restore": true,
   "max-concurrent-downloads": 10
 }
